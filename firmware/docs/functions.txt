@@ -1,0 +1,75 @@
+while (1)
+	{
+
+			I2C1_ReadReg(0x68, 0x75);
+			delay_ms(1);
+
+		/*read MPU6050*/
+  	//.................................................................................
+		if ( MPU6050_IsDataReady() ) // MPU6050
+		{
+
+			MPU6050_ReadRawData();
+
+			MPU6050_WaitUntilDataIsReceived();
+			MPU6050_Read(gyro);
+
+			GPIOC->ODR ^= GPIO_ODR_ODR_13;
+
+			if (gyro[2] > GYRO_THREESHOLD || gyro[2] < -GYRO_THREESHOLD)
+			{
+				angle += gyro[2] * 0.005;
+			}
+
+			cntrToSendData++;
+
+		}
+
+		/* Read length */
+
+//
+//		if (cntrToSendData == CNTR_40MS)
+//		{
+//			sprintf((char *)UART1_DMAbufferTX, "%.2f\n", angle);
+//			UART1_DMA_Send();
+//			cntrToSendData = 0;
+//		}
+//
+//		//.................................................................................
+//		if (UART1_DMAdataRXisReady)
+//		{
+//			UART1_ReadDMAdataRX(UART1_RXdata);
+//
+//			/* Set motors */
+//			//................................................................................
+//
+//			//................................................................................
+//		}
+
+////		UART1_WaitUntilDataIsReceived();
+////
+////		if (UART1_DMAbufferRX[0] == 'a')
+////		{
+////			Motors_M1(720, MOTORS_DRCTN_FRWRD);
+////			RGB_LED_XOR(RGB_RED);
+////		}
+////		else if (UART1_DMAbufferRX[0] == 'b')
+////		{
+////			Motors_M1(320, MOTORS_DRCTN_BCKWRD);
+////			RGB_LED_XOR(RGB_GREEN);
+////		}
+////		else if (UART1_DMAbufferRX[0] == 'c')
+////		{
+////			Motors_M1(0, MOTORS_DRCTN_BCKWRD);
+////			RGB_LED_XOR(RGB_BLUE);
+////		}
+////		ADC_Read();
+////		sprintf((char *)UART1_DMAbufferTX, "%d\n", ADC_data[0]);
+////		UART1_DMA_Send();
+////
+////		RGB_LED_XOR(RGB_GREEN);
+////		delay_ms(10);
+//
+	}
+
+}
