@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ImgSensors.qml</file>
+        <file>LeftPannel.qml</file>
+        <file>RightPannel.qml</file>
+        <file>BatteryIcon.qml</file>
+        <file>BluetoothIcon.qml</file>
+        <file>ControlPanel.qml</file>
+        <file>CentralPanel.qml</file>
+        <file>ControlButton.qml</file>
+        <file>ControlCentralButton.qml</file>
+        <file>CustomSpinBox.qml</file>
+    </qresource>
+    <qresource prefix="/resources"/>
+    <qresource prefix="/LeftPannel"/>
+    <qresource prefix="/Left"/>
+</RCC>

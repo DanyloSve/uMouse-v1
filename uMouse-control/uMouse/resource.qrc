@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/board.png</file>
+        <file>img/off-left-front.png</file>
+        <file>img/off-left-side.png</file>
+        <file>img/off-right-front.png</file>
+        <file>img/off-right-side.png</file>
+        <file>img/on-left-front.png</file>
+        <file>img/on-left-side.png</file>
+        <file>img/on-right-front.png</file>
+        <file>img/on-right-side.png</file>
+        <file>icon/battery-bolt.svg</file>
+        <file>icon/battery-empty.svg</file>
+        <file>icon/battery-full.svg</file>
+        <file>icon/battery-half.svg</file>
+        <file>icon/battery-quarter.svg</file>
+        <file>icon/battery-slash.svg</file>
+        <file>icon/battery-three-quarters.svg</file>
+        <file>icon/bluetooth-connected.gif</file>
+        <file>icon/noBluetooth.png</file>
+        <file>icon/arrow-alt-down.svg</file>
+        <file>icon/arrow-alt-left.svg</file>
+        <file>icon/arrow-alt-right.svg</file>
+        <file>icon/arrow-alt-up.svg</file>
+        <file>icon/arrow-alt-down-inact.svg</file>
+        <file>icon/arrow-alt-left-inact.svg</file>
+        <file>icon/arrow-alt-right-inact.svg</file>
+        <file>icon/arrow-alt-up-inact.svg</file>
+        <file>icon/angle-down.svg</file>
+        <file>icon/angle-up.svg</file>
+    </qresource>
+</RCC>
