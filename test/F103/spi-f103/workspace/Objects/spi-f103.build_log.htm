@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Night Condor, university, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.32.0.0
+Toolchain Path:  D:\programs\keil\core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\projects\stm32\micromouse\micromouse\spi-f103\workspace\spi-f103.uvprojx
+Project File Date:  10/16/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\programs\keil\core\ARM\ARMCC\Bin'
+Build target 'spi-f103'
+compiling mpu6500.c...
+compiling spi1.c...
+spi-f103\code\src\spi1.c(98): warning:  #177-D: function "DMA1_Init"  was declared but never referenced
+  void DMA1_Init(void)
+spi-f103\code\src\spi1.c(54): warning:  #177-D: function "SPI1_IRQHandler"  was declared but never referenced
+  void SPI1_IRQHandler(void)
+spi-f103\code\src\spi1.c: 2 warnings, 0 errors
+compiling timer_delays.c...
+compiling spi2.c...
+spi-f103\code\src\spi2.c(35): warning:  #177-D: function "SPI2_IRQHandler"  was declared but never referenced
+  void SPI2_IRQHandler(void)
+spi-f103\code\src\spi2.c: 1 warning, 0 errors
+linking...
+.\Objects\spi-f103.axf: Error: L6200E: Symbol d45hg65 multiply defined (by spi1.o and timer_delays.o).
+.\Objects\spi-f103.axf: Error: L6200E: Symbol d45hg65 multiply defined (by spi2.o and timer_delays.o).
+.\Objects\spi-f103.axf: Error: L6200E: Symbol d45hg65 multiply defined (by mpu6500.o and timer_delays.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 3 error messages.
+".\Objects\spi-f103.axf" - 3 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
