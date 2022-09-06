@@ -1,0 +1,64 @@
+Dependencies for Project 'MPU6500', Target 'MPU6500': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\MPU6500\startup\startup_stm32f10x_md_vl.s)(0x4D78912E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 532" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\MPU6500\cmsis\src\core_cm3.c)(0x4C0C9ECE)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+F (.\MPU6500\cmsis\src\stm32f10x_it.c)(0x60FAFAA0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (.\MPU6500\cmsis\inc\stm32f10x_it.h)(0x60FAF958)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+F (.\MPU6500\cmsis\src\system_stm32f10x.c)(0x60F2D60A)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+F (.\MPU6500\code\src\main.c)(0x6177CFFF)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdio.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+I (.\MPU6500\code\inc\timer_delays.h)(0x6174479F)
+I (.\MPU6500\code\inc\lcd.h)(0x61030C9C)
+I (.\MPU6500\code\inc\i2c1.h)(0x610D9038)
+I (.\MPU6500\code\inc\mpu6500.h)(0x61772C6B)
+I (.\MPU6500\code\inc\spi1.h)(0x6174601D)
+F (.\MPU6500\code\src\mpu6500.c)(0x61772C5C)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\mpu6500.o --omf_browse .\objects\mpu6500.crf --depend .\objects\mpu6500.d)
+I (.\MPU6500\code\inc\mpu6500.h)(0x61772C6B)
+I (.\MPU6500\code\inc\spi1.h)(0x6174601D)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+I (.\MPU6500\code\inc\timer_delays.h)(0x6174479F)
+F (.\MPU6500\code\src\spi1.c)(0x6174698B)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\spi1.o --omf_browse .\objects\spi1.crf --depend .\objects\spi1.d)
+I (.\MPU6500\code\inc\spi1.h)(0x6174601D)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+I (.\MPU6500\code\inc\timer_delays.h)(0x6174479F)
+F (.\MPU6500\code\src\spi2.c)(0x6171A2B1)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\spi2.o --omf_browse .\objects\spi2.crf --depend .\objects\spi2.d)
+F (.\MPU6500\code\src\timer_delays.c)(0x617447A1)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\timer_delays.o --omf_browse .\objects\timer_delays.crf --depend .\objects\timer_delays.d)
+I (.\MPU6500\code\inc\timer_delays.h)(0x6174479F)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+F (.\MPU6500\code\src\lcd.c)(0x616BE9A3)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (.\MPU6500\code\inc\lcd.h)(0x61030C9C)
+I (.\MPU6500\code\inc\timer_delays.h)(0x6174479F)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+I (.\MPU6500\code\inc\i2c1.h)(0x610D9038)
+F (.\MPU6500\code\src\i2c1.c)(0x61485548)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\MPU6500\cmsis\inc -I .\MPU6500\code\inc-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\i2c1.o --omf_browse .\objects\i2c1.crf --depend .\objects\i2c1.d)
+I (.\MPU6500\code\inc\i2c1.h)(0x610D9038)
+I (.\MPU6500\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\MPU6500\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\MPU6500\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+I (.\MPU6500\code\inc\timer_delays.h)(0x6174479F)

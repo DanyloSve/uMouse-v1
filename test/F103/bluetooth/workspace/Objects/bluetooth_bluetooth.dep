@@ -1,0 +1,36 @@
+Dependencies for Project 'bluetooth', Target 'bluetooth': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\bluetooth\startup\startup_stm32f10x_md_vl.s)(0x4D78912E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 532" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\bluetooth\cmsis\src\core_cm3.c)(0x4C0C9ECE)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\bluetooth\cmsis\inc -I .\bluetooth\code\inc -I ..\workspace-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+F (.\bluetooth\cmsis\src\stm32f10x_it.c)(0x60FAFAA0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\bluetooth\cmsis\inc -I .\bluetooth\code\inc -I ..\workspace-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (.\bluetooth\cmsis\inc\stm32f10x_it.h)(0x60FAF958)
+I (.\bluetooth\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\bluetooth\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\bluetooth\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+F (.\bluetooth\cmsis\src\system_stm32f10x.c)(0x60F2D60A)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\bluetooth\cmsis\inc -I .\bluetooth\code\inc -I ..\workspace-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\bluetooth\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\bluetooth\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\bluetooth\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+F (.\bluetooth\code\src\main.c)(0x61840D36)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\bluetooth\cmsis\inc -I .\bluetooth\code\inc -I ..\workspace-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdio.h)(0x5F63DBDC)
+I (.\bluetooth\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\bluetooth\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\bluetooth\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+I (.\bluetooth\code\inc\uart1.h)(0x6184002A)
+I (.\bluetooth\code\inc\timer_delays.h)(0x6174479F)
+F (.\bluetooth\code\src\timer_delays.c)(0x617447A1)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\bluetooth\cmsis\inc -I .\bluetooth\code\inc -I ..\workspace-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\timer_delays.o --omf_browse .\objects\timer_delays.crf --depend .\objects\timer_delays.d)
+I (.\bluetooth\code\inc\timer_delays.h)(0x6174479F)
+I (.\bluetooth\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\bluetooth\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\bluetooth\cmsis\inc\system_stm32f10x.h)(0x4D78910A)
+F (.\bluetooth\code\src\uart1.c)(0x61840CD4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\bluetooth\cmsis\inc -I .\bluetooth\code\inc -I ..\workspace-ID:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_MD-o .\objects\uart1.o --omf_browse .\objects\uart1.crf --depend .\objects\uart1.d)
+I (.\bluetooth\code\inc\uart1.h)(0x6184002A)
+I (.\bluetooth\cmsis\inc\stm32f10x.h)(0x60D9A456)
+I (.\bluetooth\cmsis\inc\core_cm3.h)(0x4D528FB8)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\bluetooth\cmsis\inc\system_stm32f10x.h)(0x4D78910A)

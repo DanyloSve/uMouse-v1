@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Night Condor, university, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.32.0.0
+Toolchain Path:  D:\programs\keil\core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\projects\stm32\micromouse\micromouse\test\F103\MPU6500\workspace\MPU6500.uvprojx
+Project File Date:  10/23/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\programs\keil\core\ARM\ARMCC\Bin'
+Rebuild target 'MPU6500'
+assembling startup_stm32f10x_md_vl.s...
+compiling core_cm3.c...
+compiling spi2.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_it.c...
+compiling spi1.c...
+MPU6500\code\src\spi1.c(89): warning:  #177-D: function "DMA1_Init"  was declared but never referenced
+  void DMA1_Init(void)
+MPU6500\code\src\spi1.c: 1 warning, 0 errors
+compiling main.c...
+compiling mpu6500.c...
+compiling timer_delays.c...
+compiling lcd.c...
+compiling i2c1.c...
+linking...
+Program Size: Code=10320 RO-data=496 RW-data=12 ZI-data=1644  
+".\Objects\MPU6500.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\programs\keil\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

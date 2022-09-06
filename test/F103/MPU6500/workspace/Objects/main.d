@@ -1,0 +1,11 @@
+.\objects\main.o: MPU6500\code\src\main.c
+.\objects\main.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\MPU6500\cmsis\inc\stm32f10x.h
+.\objects\main.o: .\MPU6500\cmsis\inc\core_cm3.h
+.\objects\main.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\MPU6500\cmsis\inc\system_stm32f10x.h
+.\objects\main.o: .\MPU6500\code\inc\timer_delays.h
+.\objects\main.o: .\MPU6500\code\inc\lcd.h
+.\objects\main.o: .\MPU6500\code\inc\i2c1.h
+.\objects\main.o: .\MPU6500\code\inc\mpu6500.h
+.\objects\main.o: .\MPU6500\code\inc\spi1.h
