@@ -1,0 +1,10 @@
+.\objects\uart2.o: pwm\code\src\uart2.c
+.\objects\uart2.o: .\pwm\code\inc\uart2.h
+.\objects\uart2.o: .\pwm\cmsis\inc\stm32f4xx.h
+.\objects\uart2.o: .\pwm\cmsis\inc\core_cm4.h
+.\objects\uart2.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart2.o: .\pwm\cmsis\inc\core_cmInstr.h
+.\objects\uart2.o: .\pwm\cmsis\inc\core_cmFunc.h
+.\objects\uart2.o: .\pwm\cmsis\inc\core_cmSimd.h
+.\objects\uart2.o: .\pwm\cmsis\inc\system_stm32f4xx.h
+.\objects\uart2.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
