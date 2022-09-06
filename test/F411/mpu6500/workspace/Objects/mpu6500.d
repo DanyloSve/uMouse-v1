@@ -1,0 +1,11 @@
+.\objects\mpu6500.o: mpu6500\code\src\mpu6500.c
+.\objects\mpu6500.o: .\mpu6500\code\inc\mpu6500.h
+.\objects\mpu6500.o: .\mpu6500\code\inc\spi2.h
+.\objects\mpu6500.o: .\mpu6500\cmsis\inc\stm32f4xx.h
+.\objects\mpu6500.o: .\mpu6500\cmsis\inc\core_cm4.h
+.\objects\mpu6500.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu6500.o: .\mpu6500\cmsis\inc\core_cmInstr.h
+.\objects\mpu6500.o: .\mpu6500\cmsis\inc\core_cmFunc.h
+.\objects\mpu6500.o: .\mpu6500\cmsis\inc\core_cmSimd.h
+.\objects\mpu6500.o: .\mpu6500\cmsis\inc\system_stm32f4xx.h
+.\objects\mpu6500.o: .\mpu6500\code\inc\timer_delays.h
