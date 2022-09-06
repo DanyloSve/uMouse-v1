@@ -1,0 +1,17 @@
+.\objects\main.o: pwm\code\src\main.c
+.\objects\main.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\pwm\cmsis\inc\stm32f4xx.h
+.\objects\main.o: .\pwm\cmsis\inc\core_cm4.h
+.\objects\main.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\pwm\cmsis\inc\core_cmInstr.h
+.\objects\main.o: .\pwm\cmsis\inc\core_cmFunc.h
+.\objects\main.o: .\pwm\cmsis\inc\core_cmSimd.h
+.\objects\main.o: .\pwm\cmsis\inc\system_stm32f4xx.h
+.\objects\main.o: .\pwm\code\inc\uart2.h
+.\objects\main.o: .\pwm\code\inc\timer_delays.h
+.\objects\main.o: .\pwm\code\inc\rgb_led.h
+.\objects\main.o: .\pwm\code\inc\pwm.h
+.\objects\main.o: .\pwm\cmsis\inc\arm_math.h
+.\objects\main.o: .\pwm\cmsis\inc\core_cm4.h
+.\objects\main.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\math.h

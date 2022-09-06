@@ -1,0 +1,9 @@
+.\objects\encoder.o: pwm\code\src\encoder.c
+.\objects\encoder.o: .\pwm\code\inc\encoder.h
+.\objects\encoder.o: .\pwm\cmsis\inc\stm32f4xx.h
+.\objects\encoder.o: .\pwm\cmsis\inc\core_cm4.h
+.\objects\encoder.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\encoder.o: .\pwm\cmsis\inc\core_cmInstr.h
+.\objects\encoder.o: .\pwm\cmsis\inc\core_cmFunc.h
+.\objects\encoder.o: .\pwm\cmsis\inc\core_cmSimd.h
+.\objects\encoder.o: .\pwm\cmsis\inc\system_stm32f4xx.h

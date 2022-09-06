@@ -1,0 +1,65 @@
+Dependencies for Project 'pwm', Target 'pwm': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\pwm\startup\startup_stm32f411xe.s)(0x582097A0)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 532" --pd "STM32F411xE SETA 1"--list .\listings\startup_stm32f411xe.lst --xref -o .\objects\startup_stm32f411xe.o --depend .\objects\startup_stm32f411xe.d)
+F (.\pwm\cmsis\src\system_stm32f4xx.c)(0x58244C26)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\pwm\code\inc -I .\pwm\cmsis\inc-ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (.\pwm\cmsis\inc\stm32f4xx.h)(0x582097AB)
+I (.\pwm\cmsis\inc\core_cm4.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\core_cmInstr.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmFunc.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmSimd.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\system_stm32f4xx.h)(0x582097AB)
+F (.\pwm\code\src\main.c)(0x620FEAA4)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\pwm\code\inc -I .\pwm\cmsis\inc-ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdio.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\stm32f4xx.h)(0x582097AB)
+I (.\pwm\cmsis\inc\core_cm4.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\core_cmInstr.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmFunc.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmSimd.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\system_stm32f4xx.h)(0x582097AB)
+I (.\pwm\code\inc\uart2.h)(0x62097641)
+I (.\pwm\code\inc\timer_delays.h)(0x620FD0FA)
+I (.\pwm\code\inc\rgb_led.h)(0x620C0240)
+I (.\pwm\code\inc\pwm.h)(0x620D81AF)
+I (.\pwm\code\inc\encoder.h)(0x620E5928)
+I (.\pwm\cmsis\inc\arm_math.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\string.h)(0x5F63DBEA)
+I (D:\programs\keil\core\ARM\ARMCC\include\math.h)(0x5F63DBDC)
+F (.\pwm\code\src\timer_delays.c)(0x620FD0FA)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\pwm\code\inc -I .\pwm\cmsis\inc-ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE-o .\objects\timer_delays.o --omf_browse .\objects\timer_delays.crf --depend .\objects\timer_delays.d)
+I (.\pwm\code\inc\timer_delays.h)(0x620FD0FA)
+I (.\pwm\cmsis\inc\stm32f4xx.h)(0x582097AB)
+I (.\pwm\cmsis\inc\core_cm4.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\core_cmInstr.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmFunc.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmSimd.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\system_stm32f4xx.h)(0x582097AB)
+F (.\pwm\code\src\uart2.c)(0x620FDB1C)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\pwm\code\inc -I .\pwm\cmsis\inc-ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE-o .\objects\uart2.o --omf_browse .\objects\uart2.crf --depend .\objects\uart2.d)
+I (.\pwm\code\inc\uart2.h)(0x62097641)
+I (.\pwm\cmsis\inc\stm32f4xx.h)(0x582097AB)
+I (.\pwm\cmsis\inc\core_cm4.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\core_cmInstr.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmFunc.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmSimd.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\system_stm32f4xx.h)(0x582097AB)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdio.h)(0x5F63DBDC)
+F (.\pwm\code\src\pwm.c)(0x620E042B)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\pwm\code\inc -I .\pwm\cmsis\inc-ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (.\pwm\code\inc\pwm.h)(0x620D81AF)
+I (.\pwm\cmsis\inc\stm32f4xx.h)(0x582097AB)
+I (.\pwm\cmsis\inc\core_cm4.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\core_cmInstr.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmFunc.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmSimd.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\system_stm32f4xx.h)(0x582097AB)
+F (.\pwm\code\src\encoder.c)(0x620FC190)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\pwm\code\inc -I .\pwm\cmsis\inc-ID:\programs\keil\packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\programs\keil\core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
+I (.\pwm\code\inc\encoder.h)(0x620E5928)
+I (.\pwm\cmsis\inc\stm32f4xx.h)(0x582097AB)
+I (.\pwm\cmsis\inc\core_cm4.h)(0x581CC64D)
+I (D:\programs\keil\core\ARM\ARMCC\include\stdint.h)(0x5F63DBDC)
+I (.\pwm\cmsis\inc\core_cmInstr.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmFunc.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\core_cmSimd.h)(0x581CC64D)
+I (.\pwm\cmsis\inc\system_stm32f4xx.h)(0x582097AB)
