@@ -1,0 +1,10 @@
+.\objects\adc.o: micromouse\code\src\adc.c
+.\objects\adc.o: .\micromouse\code\inc\adc.h
+.\objects\adc.o: .\micromouse\code\inc\timer_delays.h
+.\objects\adc.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc.o: .\micromouse\cmsis\inc\stm32f4xx.h
+.\objects\adc.o: .\micromouse\cmsis\inc\core_cm4.h
+.\objects\adc.o: .\micromouse\cmsis\inc\core_cmInstr.h
+.\objects\adc.o: .\micromouse\cmsis\inc\core_cmFunc.h
+.\objects\adc.o: .\micromouse\cmsis\inc\core_cmSimd.h
+.\objects\adc.o: .\micromouse\cmsis\inc\system_stm32f4xx.h

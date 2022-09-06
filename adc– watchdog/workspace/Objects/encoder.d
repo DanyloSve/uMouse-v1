@@ -1,0 +1,9 @@
+.\objects\encoder.o: micromouse\code\src\encoder.c
+.\objects\encoder.o: .\micromouse\code\inc\encoder.h
+.\objects\encoder.o: .\micromouse\cmsis\inc\stm32f4xx.h
+.\objects\encoder.o: .\micromouse\cmsis\inc\core_cm4.h
+.\objects\encoder.o: D:\programs\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\encoder.o: .\micromouse\cmsis\inc\core_cmInstr.h
+.\objects\encoder.o: .\micromouse\cmsis\inc\core_cmFunc.h
+.\objects\encoder.o: .\micromouse\cmsis\inc\core_cmSimd.h
+.\objects\encoder.o: .\micromouse\cmsis\inc\system_stm32f4xx.h
